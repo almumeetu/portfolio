@@ -42,7 +42,14 @@ function almumeetu_customizar_register($wp_customize)
 		'default' => get_bloginfo('template_directory') . '/img/saikat2.png',
 	));
 
-	
+	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'almumeetu_logo', array(
+		'label' => 'Logo Upload',
+		'description' => 'If you interested......',
+		'setting' => 'almumeetu_logo',
+		'section' => 'almumeetu_header_area',
+	) ));
+
+
 }
 
 add_action('customize_register', 'almumeetu_customizar_register');

@@ -7,7 +7,7 @@ Author: Al Mumeetu Saikat
 Author URI: https://wordpress.org/
 Description: This is my test wp portfolio website.
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
-Version: 1.0
+Version: 1.0.0
 Requires at least: 5.0
 Tested up to: 5.4
 Requires PHP: 7.0
@@ -18,6 +18,3 @@ Text Domain: almumeetu
 ===========================================
 ========================*/
 
-body {
-	background-color: red;
-}

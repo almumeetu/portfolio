@@ -15,6 +15,22 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
+    <div id="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/Saikat2.png" alt=""></a>
+                </div>
+                <div class="col-md-9"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
 
     <?php wp_footer(); ?>

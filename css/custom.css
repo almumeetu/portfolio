@@ -2,7 +2,7 @@
 Common CSS
 ========================================*/
 
-img{
+img {
     max-width: 100%;
 }
 
@@ -10,6 +10,116 @@ img{
 /*=======================================
 Header Area Style
 ========================================*/
-#header-area{
+#header-area {
     padding: 15px 0;
+}
+
+#header_area .col-md-3 img {
+    height: 100px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#header_area .col-md-9 ul {
+    font-family: "Oswald", sans-serif;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+#header_area .col-md-9 ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/* #header_area .col-md-9 ul li span {
+    display: block;
+    font-size: 13px;
+    font-family: "Kaisei Decol", serif;
+} */
+
+#header_area .col-md-9 ul li a {
+    color: #262626;
+    padding: 10px 11px;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#header_area .col-md-9 ul li a:hover {
+    background: #ea1a70;
+    color: #fff;
+}
+
+/*Dropdown Menu*/
+#header_area .col-md-9 ul li ul {
+    background: #262626 none repeat scroll 0 0;
+    left: -99999px;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    top: 44px;
+    width: 200px;
+    z-index: 99999;
+}
+
+#header_area .col-md-9 ul li:hover ul {
+    left: 0px;
+}
+
+#header_area .col-md-9 ul li ul li {
+    display: block;
+}
+
+#header_area .col-md-9 ul li ul li a {
+    color: #fff;
+    padding: 8px 10px;
+}
+
+#header_area .col-md-9 ul li ul li a:hover {
+    background: #ddd;
+    color: #262626;
+}
+
+#header_area .col-md-9 ul li:hover a {
+    background: #ea1a70;
+    color: #fff;
+}
+
+#header_area .col-md-9 ul li:hover ul li a {
+    background: none;
+    color: #fff;
+}
+
+/*Sub Dropdown Menu*/
+#header_area .col-md-9 ul li ul ul {
+    left: -99999px;
+    top: 0;
+    position: absolute;
+}
+
+#header_area .col-md-9 ul li:hover ul li ul {
+    left: -999999px;
+}
+
+#header_area .col-md-9 ul li ul li:hover ul {
+    left: 200px;
+}
+
+#header_area .col-md-9 ul li ul li:hover a {
+    background: #ea1a70;
+    color: #fff;
+}
+
+#header_area .col-md-9 ul ul li:hover ul li a {
+    background: #262626;
+    color: #fff;
+}
+
+#header_area .col-md-9 ul ul li ul li a:hover {
+    background: #ea1a70;
+    color: #fff;
 }

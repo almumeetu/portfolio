@@ -23,7 +23,7 @@
                     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/saikat2.png" alt=""></a>
                 </div>
                 <div class="col-md-9">
-                    <ul id="nav">
+                    <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Media</a></li>
@@ -34,7 +34,16 @@
                                 <li><a href="">Dropdown Menu</a></li>
                                 <li><a href="">Dropdown Menu</a></li>
                                 <li><a href="">Dropdown Menu</a></li>
-                                <li><a href="">Dropdown Menu</a></li>
+                                <li><a href="">Dropdown Menu</a>
+                                    <ul>
+                                        <li><a href="">Dropdown Menu</a></li>
+                                        <li><a href="">Dropdown Menu</a></li>
+                                        <li><a href="">Dropdown Menu</a></li>
+                                        <li><a href="">Dropdown Menu</a></li>
+                                        <li><a href="">Dropdown Menu</a></li>
+                                        <li><a href="">Dropdown Menu</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="">Dropdown Menu</a></li>
                                 <li><a href="">Dropdown Menu</a></li>
                             </ul>

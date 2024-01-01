@@ -50,4 +50,4 @@ function almumeetu_customizar_register($wp_customize)
 	)));
 }
 
-add_action('customize_register', 'almumeetu_customizar_register');
+add_action('customize_register', 'almumeetu_customizar_register'); 
